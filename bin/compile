@@ -45,7 +45,7 @@ else
 fi
 
 # update PATH and LD_LIBRARY_PATH
-echo "-----> Cap Nhat Moi Truong"
+echo "-----> Xay Dung Moi Truong Cho ImageMagick"
 PROFILE_PATH="$BUILD_DIR/.profile.d/imagemagick.sh"
 ACTUAL_INSTALL_PATH="$HOME/vendor/imagemagick"
 mkdir -p $(dirname $PROFILE_PATH)
