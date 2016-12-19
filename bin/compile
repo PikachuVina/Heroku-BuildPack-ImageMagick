@@ -40,7 +40,7 @@ if [ ! -f $CACHE_FILE ]; then
 
 else
   # cache exists, extract it
-  echo "-----> Extracting ImageMagick $CACHE_FILE => $VENDOR_DIR"
+  echo "-----> Giai Nen ImageMagick $CACHE_FILE => $VENDOR_DIR"
   tar xzf $CACHE_FILE -C $VENDOR_DIR
 fi
 
